@@ -3,12 +3,22 @@ These data sets provide historical information about test case executions and th
 It can be used to evaluate test case prioritization and selection methods, finding test cases most likely to fail during their next execution.
 Test cases are defined by their execution duration, their previous last execution time and results of their recent executions.
 
+Two of these data sets are provided by ABB Robotics Norway, the other one was published by Google and is included here in its converted form.
+
+Data Set | Test Cases | CI cycles | Verdicts | Failed
+-------- | ---------- | --------- | -------- | -----
+ABB Paint Control | 114 | 352 | 25,594 | 19.36%
+ABB IOF/ROL | 2,086 & 320 | 30,319 | 28.43%
+Google GSDTSR | 5,555 | 336 | 1,260,617 | 0.25%
+
+For the original GSDTSR data set repository see: *Sebastian Elbaum, Andrew Mclaughlin, and John Penix, "The Google Dataset of Testing Results", https://code.google.com/p/google-shared-dataset-of-test-suite-results, 2014*
+
 ## File overview
 
 The three data sets:
 - `paintcontrol.csv`: ABB Paint Control data set
 - `iofrol.csv`: ABB IOF/ROL data set
-- `gsdtsr.csv`: Google Shared Dataset of Test Suite Results (GSDTSR; Sebastian Elbaum, Andrew Mclaughlin, and John Penix, "The Google Dataset of Testing Results", https://code.google.com/p/google-shared-dataset-of-test-suite-results, 2014)
+- `gsdtsr.csv`: Google Shared Dataset of Test Suite Results (GSDTSR)
 
 The GSDTSR data set can be re-created from the original data:
 - `convert_gsdtsr.py`: Converts the original GSDTSR data `testShareData.csv.rev.gz` to `gsdtsr.csv` in the common file format.

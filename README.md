@@ -1,6 +1,4 @@
-# atcs-data
-Data sets for Adaptive Test Case Selection.
-
+# Adaptive Test Case Selection - Data Sets
 These data sets provide historical information about test case executions and their results.
 It can be used to evaluate test case prioritization and selection methods, finding test cases most likely to fail during their next execution.
 Test cases are defined by their execution duration, their previous last execution time and results of their recent executions.

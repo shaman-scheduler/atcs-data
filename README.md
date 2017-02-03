@@ -32,8 +32,9 @@ Because we are interested in detecting failures, test results indicate failures 
 
 Column Name | Content
 ------------ | -------------
+Cycle | The number of the CI cycle this test execution belongs to
 Id | Unique numeric identifier of the test execution
-Duration | Approximated runtime of the test case.
+Duration | Approximated runtime of the test case
 LastRun | Previous last execution of the test case as date-time-string (Format: `YYYY-MM-DD HH:ii`)
 LastResults | List of previous test results (Failed: True, Passed: False), ordered by ascending age. Lists are delimited by [ ].
 Verdict | Test verdict of this test execution (Failed: True, Passed: False)

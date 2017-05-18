@@ -8,7 +8,7 @@ Two of these data sets are provided by ABB Robotics Norway, the other one was pu
 Data Set | Test Cases | CI cycles | Verdicts | Failed
 -------- | ---------- | --------- | -------- | -----
 ABB Paint Control | 114 | 352 | 25,594 | 19.36%
-ABB IOF/ROL | 2,086 & 320 | 30,319 | 28.43%
+ABB IOF/ROL | 2,086 | 320 | 30,319 | 28.43%
 Google GSDTSR | 5,555 | 336 | 1,260,617 | 0.25%
 
 For the original GSDTSR data set repository see: *Sebastian Elbaum, Andrew Mclaughlin, and John Penix, "The Google Dataset of Testing Results", https://code.google.com/p/google-shared-dataset-of-test-suite-results, 2014*
